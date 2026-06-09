@@ -54,6 +54,10 @@ const FeedbackForm = () => {
         onChange={handleChange}></textarea>
         <div style={{display:'flex',gap:'10px',flexDirection:'column'}}>Rate US:
             <input type="radio" name="rating" value="1" onChange={handleChange}/>1
+            <input type="radio" name="rating" value="2" onChange={handleChange}/>2
+            <input type="radio" name="rating" value="3" onChange={handleChange}/>3
+            <input type="radio" name="rating" value="4" onChange={handleChange}/>4
+            <input type="radio" name="rating" value="5" onChange={handleChange}/>5
         </div>
         <button type="submit" onChange={handleSubmit}>Submit Feedback</button>
       </form>
